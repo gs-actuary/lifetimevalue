@@ -1,0 +1,21 @@
+Package: lifetimevalue
+Type: Package
+Title: Insurance Lifetime Value and Asset Share Pricing
+Version: 0.1.0
+Authors@R: person("Greg", "Sollenberger", email = "greg.sollenberger@example.com", role = c("aut", "cre"))
+Description: Deterministic multi-period calculations for insurance lifetime value,
+    profitability, retention-sensitive pricing, and asset share style analysis.
+    Projects premium, losses, expenses, policy survival, and discounted profit;
+    solves analytically for a starting premium that meets a lifetime profit target;
+    and quantifies the premium difference supported by alternative retention
+    patterns while holding expected lifetime profit constant. The methods are
+    consistent with the multi-period pricing framework discussed by Feldblum (1993)
+    in "Asset Share Pricing for Property-Casualty Insurers"
+    <https://www.casact.org/abstract/asset-share-pricing-property-casualty-insurers>.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 3.6.0)
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Config/roxygen2/version: 8.1.0
